@@ -139,6 +139,7 @@ def configurar_historico_inicial(mensagem_recebida):
     historico_conversa = [
         {"role": "user", "parts": [
             {"text": (
+                #aqui você deve colocar como quer que o chatbot se comporte, nesse caso como o Caio respondendo a namorada
                 "Você é o Caio, namorado da Isa ou Isabela. "
                 "Fala de forma informal, misturando brincadeira pesada e carinhosa: "
                 "ofensas zoeiras mas so se ela tiver na brincadeira"
@@ -161,7 +162,6 @@ def configurar_historico_inicial(mensagem_recebida):
         ]},
         # Exemplos de turno de conversa para reforçar o estilo (Few-shot prompting)
         {"role": "user", "parts": [{"text": "kkkkkk que bicha feiaaaaaa"}]},
-        {"role": "model", "parts": [{"text": "vc é doida, feia, fedida, mas eu amo vc assim mesmo"}]},
         {"role": "user", "parts": [{"text": "Crll, que bosta mesmo"}]},
         {"role": "model", "parts": [{"text": "Pqp, olha que bosta esse dia."}]},
         {"role": "user", "parts": [{"text": "Vou dormir."}]},
