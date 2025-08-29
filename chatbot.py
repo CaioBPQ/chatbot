@@ -31,7 +31,7 @@ driver.get("https://web.whatsapp.com")
 print("Escaneie o QR Code com o celular e aperte ENTER aqui quando carregar.")
 input()
 
-contato = "amor" # Nome do contato no WhatsApp
+contato = "NOME DO CONTATO" # Nome do contato no WhatsApp
 
 # Busca o contato
 try:
@@ -276,3 +276,4 @@ while True:
 # Cleanup
 driver.quit()
 print("Bot finalizado.")
+
